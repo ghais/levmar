@@ -48,7 +48,7 @@ source-repository head
 library
   build-depends: base                 >= 3     && < 5
                , bindings-levmar      >= 1.1   && < 1.2
-               , hmatrix              >= 0.12  && < 0.3
+               , hmatrix              >= 0.18  && < 0.30
                , vector               >= 0.8   && < 0.13
   exposed-modules: Numeric.LevMar
   other-modules: Bindings.LevMar.CurryFriendly
